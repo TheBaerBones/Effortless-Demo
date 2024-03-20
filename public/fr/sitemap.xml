@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://osows.github.io/fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://osows.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://osows.github.io/fr/"
-                />
-  </url><url>
     <loc>https://osows.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +12,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://osows.github.io/fr/categories/"
+                />
+  </url><url>
+    <loc>https://osows.github.io/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://osows.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://osows.github.io/fr/"
                 />
   </url><url>
     <loc>https://osows.github.io/fr/tags/</loc>
