@@ -614,7 +614,8 @@ blockquote {
   padding: 3px 15px 10px;
   width: 20%;
   height: 62px;
-  line-height: 62px; }
+  line-height: 62px;
+  background: none; }
   @media (max-width: 991px) {
     .navbar-brand.navbar-bg {
       width: auto; } }
