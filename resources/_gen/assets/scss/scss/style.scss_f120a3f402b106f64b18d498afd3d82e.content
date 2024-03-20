@@ -2472,7 +2472,7 @@ a.close-styler {
   background-color: #81c83c; }
 
 .style-switch-wrapper #preset3 {
-  background-color: #ee3b24; }
+  background-color: #ff0000cc; }
 
 .style-switch-wrapper #preset4 {
   background-color: #ffc400; }

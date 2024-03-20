@@ -112,55 +112,73 @@ link = "plugins/waypoints.min.js"
 ############################## English navigation ###############################
 
 [[Languages.en.menu.main]]
-name = "About"
-URL = "about/"
+name = "Service"
+URL = "service/"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Portfolio"
-URL = "portfolio/"
-weight = 3
+  name = "Portfolio"
+  URL = "portfolio/"
+  weight = 3
 
 [[Languages.en.menu.main]]
-name = "Blog"
-URL = "blog/"
-weight = 4
+  name = "Contact"
+  URL = "contact/"
+  weight = 4
 
 [[Languages.en.menu.main]]
-weight = 5
-name = "Pages"
-hasChildren = true
+  weight = 5
+  name = "More"
+  hasChildren = true
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Career"
-  URL = "career/"
+    [[Languages.en.menu.main]]
+    parent = "More"
+    name = "About"
+    URL = "about/"
+    weight = 1
+    
+    [[Languages.en.menu.main]]
+    parent = "More"
+    name = "FAQ"
+    URL = "faq/"
+    weight = 2
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Service"
-  URL = "service/"
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Team"
-  URL = "team/"
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq/"
+# [[Languages.en.menu.main]]
+# name = "Blog"
+# URL = "blog/"
+# weight = 4
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing/"
-  
-[[Languages.en.menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 6
+# [[Languages.en.menu.main]]
+# weight = 5
+# name = "Pages"
+# hasChildren = true
 
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Career"
+  # URL = "career/"
+
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Service"
+  # URL = "service/"
+
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Team"
+  # URL = "team/"
+
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "FAQ"
+  # URL = "faq/"
+
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Pricing"
+  # URL = "pricing/"
 
 
 
