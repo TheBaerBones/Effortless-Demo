@@ -5,8 +5,8 @@
 <!-- Slider start -->
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
-<section id="home" class="p-0">
-  <div id="main-slide" class="cd-hero">
+<section id="home" class="p-0 pt-5 pt-sm-0">
+  <div id="main-slide" class="cd-hero pt-5 pt-sm-0">
     <ul class="cd-hero-slider">
       {{ range $index, $elements:= .slider_item }}
       {{ $imgPosition := .image_position | lower }}
