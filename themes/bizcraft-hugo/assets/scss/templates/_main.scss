@@ -234,17 +234,13 @@
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
+	object-fit: cover; /* Ensures video covers the area without losing its aspect ratio */
 	z-index: -100;
 	filter: grayscale(100%);
 
 	@include mobile {
-		position: fixed;
-		right: 0;
-		bottom: 0;
 		min-width: 100%;
-		min-height: 150%;
-		z-index: -100;
-		filter: grayscale(100%);
+		min-height: 100%;
 		}
 }
 
