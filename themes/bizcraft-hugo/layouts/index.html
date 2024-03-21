@@ -12,7 +12,9 @@
       {{ $imgPosition := .image_position | lower }}
       <li class="{{if eq $index 0}}selected{{end}}">
         <div class="overlay2">
-          <!-- <iframe src="{{ .bg_video | absURL }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <!-- <div class="video-background">
+            <iframe class="youtubeVid" width="100%" height="100%" src="https://www.youtube.com/embed/dbQCJdvPWBA?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=dbQCJdvPWBA&mute=1" frameborder="0" allowfullscreen></iframe>
+          </div> -->
           <img src="{{ .bg_image | absURL }}" alt="slider">
         </div>
         {{if eq $imgPosition "right"}}
@@ -22,7 +24,7 @@
         </div>
         {{ end }}
         {{ end }}
-        <div class="{{if .image}}cd-half-width{{else}}cd-full-width{{end}}">
+        <div class="z-index-5 {{if .image}}cd-half-width{{else}}cd-full-width{{end}}">
           <h2>{{ .title | markdownify }}</h2>
           <h3>{{ .subtitle | markdownify }}</h3>
           <h3>{{ .subtitle2 | markdownify }}</h3>
@@ -44,7 +46,7 @@
 
     <div class="cd-slider-nav">
       <nav>
-        <ul>
+        <ul class="pl-0">
           {{ range $index, $elements:= .slider_item }}
           <li class="{{if eq $index 0}}selected{{end}}"><a href="#0"><i class="fa {{ .navigator.icon }}"></i>
               {{ .navigator.label }}</a></li>

@@ -219,11 +219,41 @@
 
 .overlay2 {
 	position: relative;
+	// filter: grayscale(100%);
+
 }
 
 .overlay2 img {
 	width: 100%;
+	// visibility: hidden;
 }
+
+// .overlay2 .video-background {
+// 	position: fixed;
+// 	right: 0;
+// 	bottom: 0;
+// 	min-width: 100%;
+// 	min-height: 100%;
+// 	width: auto;
+// 	height: auto;
+// 	z-index: -100;
+// 	filter: grayscale(100%);
+// }
+
+// .youtubeVid {
+// 	z-index: -100;
+// 	position: fixed;
+
+// 	@include mobile {
+// 		z-index: -100;
+// 		position: fixed;	
+// 	}
+// }
+
+// .overlay2 .video-background iframe {
+// 	filter: grayscale(100%); /* This applies the black and white filter */
+// }
+
 
 .overlay2::before {
 	position: absolute;
@@ -2315,7 +2345,7 @@ a.close-styler {
 }
 
 .style-switch-wrapper #preset3 {
-	background-color: #ff0000cc;
+	background-color: #ee3b24;
 }
 
 .style-switch-wrapper #preset4 {

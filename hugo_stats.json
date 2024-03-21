@@ -20,6 +20,7 @@
       "hr",
       "html",
       "i",
+      "iframe",
       "img",
       "input",
       "label",
@@ -201,6 +202,7 @@
       "h4",
       "header",
       "heading",
+      "hidden",
       "icon-pentagon",
       "icon-xl",
       "image-block",
@@ -266,6 +268,7 @@
       "pagination-default",
       "parallax",
       "parallax-overlay",
+      "pl-0",
       "pl-5",
       "pl-sm-5",
       "plan",
@@ -334,6 +337,7 @@
       "ts_counter",
       "twt",
       "unstyled",
+      "video-background",
       "view",
       "web-design",
       "white",
@@ -343,7 +347,9 @@
       "widget-tags",
       "widget-title",
       "wordpress",
-      "wow"
+      "wow",
+      "youtubeVid",
+      "z-index-5"
     ],
     "ids": [
       "accordion1",
