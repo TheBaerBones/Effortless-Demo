@@ -225,34 +225,42 @@
 
 .overlay2 img {
 	width: 100%;
-	// visibility: hidden;
+	display: none;
 }
 
-// .overlay2 .video-background {
-// 	position: fixed;
-// 	right: 0;
-// 	bottom: 0;
-// 	min-width: 100%;
-// 	min-height: 100%;
-// 	width: auto;
-// 	height: auto;
-// 	z-index: -100;
-// 	filter: grayscale(100%);
-// }
+.overlay2 .video-background {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -100;
+	filter: grayscale(100%);
 
-// .youtubeVid {
-// 	z-index: -100;
-// 	position: fixed;
+	@include mobile {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -100;
+		filter: grayscale(100%);
+		}
+}
 
-// 	@include mobile {
-// 		z-index: -100;
-// 		position: fixed;	
-// 	}
-// }
+.youtubeVid {
+	z-index: -100;
+	position: fixed;
 
-// .overlay2 .video-background iframe {
-// 	filter: grayscale(100%); /* This applies the black and white filter */
-// }
+	@include mobile {
+		z-index: -100;
+		position: fixed;	
+	}
+}
+
+.overlay2 .video-background iframe {
+	filter: grayscale(100%); /* This applies the black and white filter */
+}
 
 
 .overlay2::before {

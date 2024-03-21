@@ -20,6 +20,7 @@
       "hr",
       "html",
       "i",
+      "iframe",
       "img",
       "input",
       "label",
@@ -201,6 +202,7 @@
       "h4",
       "header",
       "heading",
+      "hidden",
       "icon-pentagon",
       "icon-xl",
       "image-block",
@@ -335,6 +337,7 @@
       "ts_counter",
       "twt",
       "unstyled",
+      "video-background",
       "view",
       "web-design",
       "white",
@@ -345,6 +348,7 @@
       "widget-title",
       "wordpress",
       "wow",
+      "youtubeVid",
       "z-index-5"
     ],
     "ids": [
