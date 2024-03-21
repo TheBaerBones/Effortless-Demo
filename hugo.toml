@@ -181,6 +181,23 @@ weight = 2
   # URL = "pricing/"
 
 
+############################## English Footer ##################################
+
+[[Languages.en.menu.footer]]
+  name = "Service"
+  URL = "service/"
+  weight = 2
+
+[[Languages.en.menu.footer]]
+  name = "Portfolio"
+  URL = "portfolio/"
+  weight = 3
+
+[[Languages.en.menu.footer]]
+  name = "Contact"
+  URL = "contact/"
+  weight = 4
+
 
 ############################## French navigation ###############################
 

@@ -2,7 +2,7 @@
 <footer id="footer" class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-sm-12 footer-widget">
+			<div class="col-md-5 col-sm-12 footer-widget">
 				<h3 class="widget-title">{{i18n `recent_post`}}</h3>
         {{ range first 3 ( where .Site.RegularPages "Section" "blog" )}}
 				<div class="latest-post-items media mb-3">
@@ -21,7 +21,7 @@
 			<!--/ End Recent Posts-->
 
 
-			<div class="col-md-4 col-sm-12 footer-widget">
+			<!-- <div class="col-md-4 col-sm-12 footer-widget">
 				<h3 class="widget-title">{{i18n `flickr_photos`}}</h3>
 
 				<div class="img-gallery">
@@ -33,8 +33,20 @@
 						{{ end }}
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!--/ end flickr -->
+
+			
+			<div class="col-md-3 col-sm-6">
+				<h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
+				<ul class="list-unstyled list-hover-underline">
+				  {{ range site.Menus.footer }}
+				  <li class="mb-3 text-light"><a href="{{ .URL | relLangURL }}" class="text-light">{{ .Name }}</a></li>
+				  {{ end }}
+				</ul>
+			    </div>
+			    <!-- end Quick Links -->
+		  
 
 			<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
 				<h3 class="widget-title">{{i18n `about_us`}}</h3>

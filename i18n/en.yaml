@@ -25,6 +25,9 @@
 - id: subject
   translation: Subject
 
+- id: quick_links
+  translation: Quick Links
+
 - id: message
   translation: Message
 
