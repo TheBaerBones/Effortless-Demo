@@ -12,6 +12,7 @@
       {{ $imgPosition := .image_position | lower }}
       <li class="{{if eq $index 0}}selected{{end}}">
         <div class="overlay2">
+          <!-- <iframe src="{{ .bg_video | absURL }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
           <img src="{{ .bg_image | absURL }}" alt="slider">
         </div>
         {{if eq $imgPosition "right"}}
