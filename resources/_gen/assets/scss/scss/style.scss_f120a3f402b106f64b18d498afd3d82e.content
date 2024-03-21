@@ -833,7 +833,8 @@ blockquote {
   overflow: hidden; }
 
 .overlay2 {
-  position: relative; }
+  position: relative;
+  height: 100%; }
 
 .overlay2 img {
   width: 100%;
@@ -853,7 +854,7 @@ blockquote {
       right: 0;
       bottom: 0;
       min-width: 100%;
-      min-height: 100%;
+      min-height: 150%;
       z-index: -100;
       filter: grayscale(100%); } }
 .youtubeVid {
