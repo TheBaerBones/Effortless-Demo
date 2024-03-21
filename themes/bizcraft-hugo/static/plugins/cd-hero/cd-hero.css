@@ -63,11 +63,11 @@ Slider
 
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 
   .cd-hero-slider {
-    height: 400px;
+    height: 500px;
   }
 
   .overlay2 img {
@@ -76,12 +76,16 @@ Slider
   }
 
   .cd-hero-slider h2 {
-    font-size: 2em !important;
+    font-size: 2.3em !important;
+  }
+
+  .cd-hero-slider h3 {
+    font-size: 1.4em !important;
   }
 
   .cd-hero-slider h3,
   .cd-hero-slider p {
-    display: none;
+    /* display: none; */
   }
 
   .cd-hero-slider .cd-half-width {
@@ -106,6 +110,40 @@ Slider
 @media only screen and (min-width: 1170px) {
   .cd-hero-slider {
     height: 720px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .cd-hero-slider {
+    height: 720px;
+  }
+
+  .cd-hero-slider .cd-half-width {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .cd-hero-slider .cd-full-width,
+  .cd-hero-slider .cd-half-width {
+    padding-top: 140px;
+  }
+
+  .cd-hero-slider {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+
+  .cd-hero-slider .cd-full-width,
+  .cd-hero-slider .cd-half-width {
+    padding-top: 100px;
+  }
+
+  .cd-hero-slider {
+    height: 500px;
   }
 }
 
@@ -260,7 +298,7 @@ Single slide style
 
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
-    padding-top: 100px;
+    padding-top: 250px;
   }
 
   .cd-hero-slider .cd-bg-video-wrapper {
@@ -295,7 +333,7 @@ Single slide style
   }
 
   .cd-hero-slider h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .cd-hero-slider .cd-btn {
