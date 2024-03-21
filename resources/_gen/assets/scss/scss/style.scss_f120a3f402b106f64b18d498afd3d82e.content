@@ -838,32 +838,40 @@ blockquote {
 
 .overlay2 img {
   width: 100%;
-  display: none; }
+  z-index: -1000; }
 
-.overlay2 .video-background {
-  position: fixed;
-  right: 0;
+.youtube-background {
+  position: relative;
+  /* Set to relative to contain the absolutely positioned iframe */
+  top: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  /* Ensures video covers the area without losing its aspect ratio */
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
   z-index: -100;
-  filter: grayscale(100%); }
-  @media (max-width: 575px) {
-    .overlay2 .video-background {
-      min-width: 100%;
-      min-height: 100%; } }
-.youtubeVid {
-  z-index: -100;
-  position: fixed; }
-  @media (max-width: 575px) {
-    .youtubeVid {
-      z-index: -100;
-      position: fixed; } }
-.overlay2 .video-background iframe {
   filter: grayscale(100%);
-  /* This applies the black and white filter */ }
+  overflow: hidden;
+  /* Hide anything that goes outside this container */
+  /* No need to set z-index here, the iframe has it */ }
+
+.youtube-background iframe {
+  width: 100vw;
+  /* Use viewport widths and heights to always cover the screen */
+  height: 56.25vw;
+  /* This height is the aspect ratio for 16:9 screens (100/16*9) */
+  min-height: 100vh;
+  min-width: 177.77vh;
+  /* This width is the aspect ratio for 16:9 screens (100/9*16) */
+  object-fit: cover;
+  /* Cover the container without losing aspect ratio */
+  position: absolute;
+  /* Positioned absolutely */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+  /* Keep it below the content */ }
 
 .overlay2::before {
   position: absolute;
