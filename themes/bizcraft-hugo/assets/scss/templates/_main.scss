@@ -226,7 +226,6 @@
 .overlay2 img {
 	width: 100%;
 	// display: none;
-	z-index: -1000;
 }
 
 .youtube-background {
@@ -2203,7 +2202,7 @@ iframe {
 
 @media (min-width: 768px) {
 	.video-section {
-		padding: 300px 0;
+		padding: 100px 0;
 	}
 }
 
