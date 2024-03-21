@@ -5,7 +5,7 @@ slider:
     ################# Slider item loop
     - title : "Expert Demolition Services"
       subtitle : "Residential & Commercial Interior Demolition <br><br>"
-      subtitle2 : "Western Washington"
+      subtitle2 : "For Western Washington Contractors"
       bg_image : "images/slider/bg1.jpg"
       bg_video : "https://www.youtube.com/embed/dbQCJdvPWBA?si=0mHLpyAtWxDO-H3m"
       image : ""
