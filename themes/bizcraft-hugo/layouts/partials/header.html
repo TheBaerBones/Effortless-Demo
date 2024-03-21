@@ -25,7 +25,7 @@
               aria-expanded="false">
               {{ .Name }}
             </a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu mb-3">
               {{ range .Children }}
               <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
               {{ end }}
@@ -38,6 +38,9 @@
           {{ end }}
           {{ end }}
         </ul>
+        <div class="btn btn-primary solid">
+            <a class="call-top" href="tel:2532907721">253.290.7721</a>
+        </div>
         
         <!-- Language List -->
         {{ if .IsTranslated }}
