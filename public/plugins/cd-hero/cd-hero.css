@@ -147,6 +147,18 @@ Slider
   }
 }
 
+@media only screen and (max-width: 290px) {
+
+  .cd-hero-slider .cd-full-width,
+  .cd-hero-slider .cd-half-width {
+    padding-top: 30px;
+  }
+
+  .cd-hero-slider {
+    height: 500px;
+  }
+}
+
 /* -------------------------------- 
 
 Single slide style
