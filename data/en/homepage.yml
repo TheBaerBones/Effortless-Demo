@@ -18,14 +18,14 @@ slider:
       # slider buttons
       buttons:
         # button loop
-        - label : "Start Now"
+        - label : "Schedule a Call"
           style : "white"
-          link : "#"
+          link : "https://calendly.com/effortless-demo/disco15"
           
         # button loop
         - label : "Learn More"
           style : "solid"
-          link : "#"
+          link : "about/"
 
     ############### Slider item loop
     - title : "How Big Can You Dream?"
