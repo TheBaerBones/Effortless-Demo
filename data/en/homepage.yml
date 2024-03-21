@@ -25,7 +25,7 @@ slider:
         # button loop
         - label : "Learn More"
           style : "solid"
-          link : "about/"
+          link : "services/"
 
     ############### Slider item loop
     - title : "How Big Can You Dream?"
