@@ -1812,6 +1812,12 @@ figure.effect-oscar:hover img {
   margin-bottom: 0;
   line-height: normal; }
 
+.footer-about-us a {
+  color: #fff; }
+
+.footer-about-us a:hover {
+  color: #FF0000CC; }
+
 .subscribe {
   margin-top: 20px; }
 
