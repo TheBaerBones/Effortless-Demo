@@ -75,7 +75,6 @@
       "cd-hero",
       "cd-hero-slider",
       "cd-img-container",
-      "cd-slider-nav",
       "classic",
       "clearfix",
       "client-carousel",
@@ -141,7 +140,6 @@
       "fa-google-plus",
       "fa-heart-o",
       "fa-home",
-      "fa-hotel",
       "fa-info-circle",
       "fa-instagram",
       "fa-institution",
@@ -202,7 +200,6 @@
       "h4",
       "header",
       "heading",
-      "hidden",
       "icon-pentagon",
       "icon-xl",
       "image-block",
@@ -268,7 +265,6 @@
       "pagination-default",
       "parallax",
       "parallax-overlay",
-      "pl-0",
       "pl-5",
       "pl-sm-5",
       "plan",
@@ -348,8 +344,7 @@
       "widget-title",
       "wordpress",
       "wow",
-      "youtubeVid",
-      "z-index-5"
+      "youtubeVid"
     ],
     "ids": [
       "accordion1",
