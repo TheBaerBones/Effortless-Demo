@@ -16,7 +16,7 @@ skills: ["HTML5","css3","jQuery","Ruby & Rails"]
 # porjects link
 project_link : "#"
 # meta description
-description: "This is meta description."
+description: "Test Description"
 # save as draft
 draft: false
 ---
