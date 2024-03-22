@@ -198,6 +198,16 @@ weight = 2
   URL = "contact/"
   weight = 4
 
+[[Languages.en.menu.footer]]
+  name = "About"
+  URL = "about/"
+  weight = 5
+
+[[Languages.en.menu.footer]]
+  name = "FAQ"
+  URL = "faq/"
+  weight = 6
+
 
 ############################## French navigation ###############################
 
@@ -260,7 +270,7 @@ home = "Home"
 description = "This is meta description"
 author = "Osows"
 # contact info
-address = "P.O. BOX 1882, 1102 A STREET, TACOMA, WA, 98402, UNITED STATES"
+address = "P.O. Box 1882, 1102 A Street, Tacoma, WA, 98402, United States"
 phone = "(253) 290-7721"
 email = "Max@EffortlessJunkRemoval.com"
 # contact form action
@@ -331,7 +341,7 @@ weight = 1
 
 [Languages.en.params]
 # footer content
-footer_content = "Open 9 AM - 7PM | Closed Wednesday<br><br>Contractors License #EFFORJR779KE"
+footer_content = "Open 9 AM - 7PM | Closed Wednesday<br><br>Contractors License: #EFFORJR779KE"
 # copyright
 copyright = "Copyright &copy; 2024 Oso Group Incorporated"
 

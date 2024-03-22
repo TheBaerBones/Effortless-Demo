@@ -1452,6 +1452,36 @@ figure.effect-oscar:hover img {
 }
 
 
+
+// Footer Quick Links 
+
+.quick-links-container {
+	@include mobile {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+.quick-links-content {
+	color: #fff;
+}
+
+.quick-links-content p a{
+	color: #fff;
+	text-transform: none;
+	font-size: 20px;
+
+	@include mobile {
+		font-size: 18px;
+	}
+
+}
+
+.quick-links-content p a:hover {
+		color: #FF0000CC;
+	}
+
+
+
 /* Footer about us */
 
 .footer-about-us h4 {

@@ -299,7 +299,12 @@ blockquote {
 
 .widget-title {
 	margin-bottom: 25px;
-	font-size: 20px;
+	font-size: 25px;
+}
+
+.widget-title a{
+	text-decoration: none;
+	text-transform: none;
 }
 
 .post-title {

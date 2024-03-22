@@ -10,7 +10,7 @@
 						<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
 						<p class="post-meta">
 							<!-- <span class="author"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Date}}</a></span> -->
-							<span class="author"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Description}}</a></span>
+							<span class="author">{{ .Params.Description}}</span>
 							<!-- <span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
 								href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"> {{ if ne $index 0 }}, {{ end }}
 								{{ . | title }}</a> {{ end}}</span> -->
@@ -38,13 +38,13 @@
 			<!--/ end flickr -->
 
 
-			<div class="col-md-4 col-sm-6">
-				<h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
-				<ul class="list-unstyled list-hover-underline">
+			<div class="col-md-4 col-sm-6 quick-links-container">
+				<h3 class="widget-title">{{ i18n "quick_links" }}</h3>
+				<div class="quick-links-content media-body">
 				  {{ range site.Menus.footer }}
-				  <li class="mb-3 text-light"><a href="{{ .URL | relLangURL }}" class="text-light">{{ .Name }}</a></li>
+				  <p class="latest-post-content media-body mb-4"><a href="{{ .URL | relLangURL }}" class="">{{ .Name }}</a></p>
 				  {{ end }}
-				</ul>
+				  </div>
 			    </div>
 			    <!-- end Quick Links -->
 		  
