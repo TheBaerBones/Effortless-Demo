@@ -356,7 +356,11 @@ blockquote {
 
 .widget-title {
   margin-bottom: 25px;
-  font-size: 20px; }
+  font-size: 25px; }
+
+.widget-title a {
+  text-decoration: none;
+  text-transform: none; }
 
 .post-title {
   font-size: 24px;
@@ -1805,6 +1809,24 @@ figure.effect-oscar:hover img {
 .footer2 .img-gallery a.thumb-holder img {
   width: 90px;
   height: 75px; }
+
+@media (max-width: 575px) {
+  .quick-links-container {
+    margin-top: 20px;
+    margin-bottom: 20px; } }
+
+.quick-links-content {
+  color: #fff; }
+
+.quick-links-content p a {
+  color: #fff;
+  text-transform: none;
+  font-size: 20px; }
+  @media (max-width: 575px) {
+    .quick-links-content p a {
+      font-size: 18px; } }
+.quick-links-content p a:hover {
+  color: #FF0000CC; }
 
 /* Footer about us */
 .footer-about-us h4 {
