@@ -261,8 +261,8 @@ description = "This is meta description"
 author = "Osows"
 # contact info
 address = "P.O. BOX 1882, 1102 A STREET, TACOMA, WA, 98402, UNITED STATES"
-phone = "253.290.7721"
-email = "Max@EffortlessJunkRemoval.COM"
+phone = "(253) 290-7721"
+email = "Max@EffortlessJunkRemoval.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # copyright
