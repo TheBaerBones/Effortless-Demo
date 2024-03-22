@@ -163,26 +163,27 @@ feature:
 ############################### about ##################################
 about:
   enable : true
-  title : "Know More About Our Company"
-  subtitle : "Why Choose Us"
-  bg_image : "images/image-block-bg.jpg"
-  content : "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor."
+  title: "Know More About Our Company"
+  subtitle: "Why Choose Us"
+  bg_image: "images/image-block-bg.jpg"
+  content: "Our origins lie in debris removal, evolving to interior demolition upon demand from contractors. We specialize in large residential projects, tenant improvements, multifamily renovations, and commercial projects up to 20,000 square feet. Our mission is multifaceted: provide clients with predictable, stress-free services; offering our employees an educational path into the trades, fair compensation, and a positive work environment; and contributing to our community by fostering new spaces and opportunities for growth."
+
   about_item:
-    # about item loop
-    - name : "Tons of Features"
-      icon : "fa-bicycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Consectetur adipisicing elit sed do eiusmod tempor incididunt ut"
-      
-    # about item loop
-    - name : "PowerPack Theme"
-      icon : "fa-diamond" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Consectetur adipisicing elit sed do eiusmod tempor incididunt ut"
-      
-    # about item loop
-    - name : "Day Night Support"
-      icon : "fa-street-view" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Consectetur adipisicing elit sed do eiusmod tempor incididunt ut"
+    - name: "Evolution of Services"
+      icon: "fa-recycle" # Represents our origin and adaptability
+      content: "Transitioned from debris removal to interior demolition to meet contractor demands, focusing on substantial residential and commercial projects."
+
+    - name: "Skilled and Trained Team"
+      icon: "fa-shield" # Indicates protection and safety, relating to training and standards
+      content: "Our team boasts highly skilled leads with extensive training (4,000+ hours, OSHA30, First Aid, CPR) and apprentices to help you meet Apprenticeship Utilization Requirements (AURs)."
+
+    - name: "Community Contribution"
+      icon: "fa-heart-o" # Symbolizes care and contribution to the community
+      content: "Committed to community spaces and offering skill-building opportunities to support future growth."
+
+    - name: "Readiness for Any Project"
+      icon: "fa-users" # Reflects our team's capacity and readiness
+      content: "With an extended network of 10+ on-call laborers, we are equipped to handle large or urgent projects efficiently."
 
 
 ############################### team ####################################
