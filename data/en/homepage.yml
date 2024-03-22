@@ -113,50 +113,97 @@ funfact:
 feature:
   enable : true
   feature_item:
-    # feature item loop
-    - name : "Clean &amp; Modern Design"
-      icon : "fa-heart-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Useful Shortcodes"
-      icon : "fa-codepen" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Parallax Section"
-      icon : "fa-film" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Multipurpose Concept"
-      icon : "fa-newspaper-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Responsive Layout"
-      icon : "fa-desktop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Light wight Performance"
-      icon : "fa-pagelines" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Free Lifetime Updates"
-      icon : "fa-recycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Endless Possibilites"
-      icon : "fa-diamond" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "24/7 Live Support"
-      icon : "fa-whatsapp" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+  # How We Work Section
+  # feature item loop
+  - name : "Protective Measures"
+    icon : "fa-shield-alt" # Updated to FA6 for safety and protection
+    content : "Use of protective barriers, coverings, and dust control for selective/active business projects."
+
+  # feature item loop
+  - name : "Site Preparation"
+    icon : "fa-cut" # Updated to FA6 for preparation and precision
+    content : "Initial site stripping to protect selected items."
+
+  # feature item loop
+  - name : "Safety Planning"
+    icon : "fa-triangle-exclamation" # Updated to FA6 for caution and planning
+    content : "Conducting job hazard analysis and developing site-specific safety plans."
+
+  # feature item loop
+  - name : "Flexible Scheduling"
+    icon : "fa-clock" # Updated to FA6 for time management and off-hours work
+    content : "Offering off-hours abilities to minimize disruptions."
+
+  # feature item loop
+  - name : "Planned Timelines"
+    icon : "fa-calendar-check" # Updated to FA6 for scheduling and planning
+    content : "Setting conservative timelines for easier project management."
+
+  # feature item loop
+  - name : "Team Coordination"
+    icon : "fa-users" # Updated to FA6 for teamwork and meetings
+    content : "Holding daily team kickoff meetings for safety and productivity."
+
+  # feature item loop
+  - name : "Progress Updates"
+    icon : "fa-chart-line" # Updated to FA6 for reporting and updates
+    content : "Providing regular progress updates to keep you informed."
+
+  # feature item loop
+  - name : "Quality Assurance"
+    icon : "fa-square-check" # Updated to FA6 for checking and verification
+    content : "Creating punch lists before wrap-up to ensure quality."
+
+  # Step by Step Section
+  # feature item loop
+  - name : "Inquiry Response"
+    icon : "fa-1" # FA6 number icon for step 1
+    content : "Answering or returning calls within 1 business day."
+
+  # feature item loop
+  - name : "Site Inspection"
+    icon : "fa-2" # FA6 number icon for step 2
+    content : "Conducting site inspections and discussing specific needs."
+
+  # feature item loop
+  - name : "Detailed Assessment"
+    icon : "fa-3" # FA6 number icon for step 3
+    content : "Performing detailed assessments, including asbestos and lead testing."
+
+  # feature item loop
+  - name : "Proposal Review"
+    icon : "fa-4" # FA6 number icon for step 4
+    content : "Delivering and reviewing proposal within 1 week of site visit, including necessary documentation."
+
+  # feature item loop
+  - name : "Contract Clarification"
+    icon : "fa-5" # FA6 number icon for step 5
+    content : "Clarifying and approving the contract."
+
+  # feature item loop
+  - name : "Deposit"
+    icon : "fa-6" # FA6 number icon for step 6
+    content : "Placing the deposit to commence the project."
+
+  # feature item loop
+  - name : "Project Kickoff"
+    icon : "fa-7" # FA6 number icon for step 7
+    content : "Official project start."
+
+  # feature item loop
+  - name : "Progress Summaries"
+    icon : "fa-8" # FA6 number icon for step 8
+    content : "Providing summaries at each key project landmark."
+
+  # feature item loop
+  - name : "Cleanup and Punch Out"
+    icon : "fa-9" # FA6 number icon for step 9
+    content : "Executing project cleanup and final quality checks."
+
+  # feature item loop
+  - name : "Final Steps"
+    icon : "fa-10" # FA6 number icon for step 10
+    content : "Final payment and satisfaction survey."
 
 
   
