@@ -1,15 +1,14 @@
 ---
-title: "Light Carpet"
+title: ""
 date: 2020-05-12T12:14:34+06:00
 # page header background image
 page_header_bg: "images/banner/banner1.jpg"
 images: 
-  - "images/portfolio/portfolio7.jpg"
-  - "images/portfolio/portfolio2.jpg"
+  - "images/portfolio/affiliation2.png"
 # clients
 clients : "BizCraft Incorporatin Ltd."
 # filter types
-types: ["web design", "joomla"]
+types: ["affiliation"]
 # used skills
 skills: ["HTML5","css3","jQuery","Ruby & Rails"]
 # porjects link
