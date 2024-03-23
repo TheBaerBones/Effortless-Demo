@@ -1449,8 +1449,8 @@ if (typeof Object.create !== "function") {
         });
     };
 
+// Owl Client Carousel Options
     $.fn.owlCarousel.options = {
-
         items : 5,
         itemsCustom : false,
         itemsDesktop : [1199, 4],
@@ -1462,7 +1462,7 @@ if (typeof Object.create !== "function") {
         itemsScaleUp : false,
 
         slideSpeed : 200,
-        paginationSpeed : 800,
+        paginationSpeed : 8000,
         rewindSpeed : 1000,
 
         autoPlay : false,
