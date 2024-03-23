@@ -99,12 +99,6 @@
 {{ end }}
 <!-- Portfolio end -->
 
-<!-- Counter Strat -->
-{{ if $data.homepage.funfact.enable }}
-{{ partial "funfact.html" . }}
-{{ end }}
-<!--/ Counter end -->
-
 <!-- Feature box start -->
 {{ if $data.homepage.feature.enable }}
 {{ with $data.homepage.feature }}
@@ -134,7 +128,13 @@
 {{ end }}
 <!--/ Feature box end -->
 
-<!-- Feature box start -->
+<!-- Counter Strat -->
+{{ if $data.homepage.funfact.enable }}
+{{ partial "funfact.html" . }}
+{{ end }}
+<!--/ Counter end -->
+
+<!-- Feature box 2 start -->
 {{ if $data.homepage.feature2.enable }}
 {{ with $data.homepage.feature2 }}
 <section id="feature" class="feature">

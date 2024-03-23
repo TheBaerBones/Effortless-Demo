@@ -111,8 +111,8 @@ funfact:
   
 ############################### feature ##################################
 feature:
-  title : "Service We Provide"
-  subtitle : "A Quality Experience Team with 4 years experience"
+  title : "Our Protocols"
+  subtitle : "From Safety Protocols to Project Timelines: Understanding Our Commitment to You"
   title_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
   enable : true
   feature_item:
@@ -158,8 +158,8 @@ feature:
     content : "Creating punch lists before wrap-up to ensure quality."
 
 feature2:
-  title1 : "The Steps"
-  subtitle1 : "A comprehensive overview of our procedure."
+  title1 : "Our Method"
+  subtitle1 : "Your Guide Through Our Detailed Procedure."
   title1_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
   enable : true
   feature_item2:
