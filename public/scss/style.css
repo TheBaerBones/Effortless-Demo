@@ -1919,7 +1919,7 @@ ul.arrow li:before {
   border-top: 1px solid #e7e7e7; }
 
 #back-to-top {
-  right: 40px;
+  left: 40px;
   top: auto;
   z-index: 10;
   -webkit-backface-visibility: hidden; }
@@ -1941,6 +1941,29 @@ ul.arrow li:before {
 #back-to-top .btn.btn-primary:hover {
   color: #fff;
   opacity: 1; }
+
+#schedule-call {
+  right: 40px;
+  top: auto;
+  z-index: 10;
+  -webkit-backface-visibility: hidden; }
+
+#schedule-call.affix {
+  bottom: 60px; }
+
+#schedule-call .btn.btn-primary {
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #ff0000cc;
+  text-transform: none; }
+
+#schedule-call .btn.btn-primary.solid {
+  background: hwb(0 0% 0%/0.8); }
+
+#schedule-call .btn.btn-primary:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+  /* More transparent red background on hover */
+  color: #000; }
 
 /* Sub pages
 ================================================== */

@@ -61,7 +61,6 @@
       "body-inner",
       "border",
       "border-0",
-      "border-black",
       "border-right",
       "bounceIn",
       "breadcrumb",
@@ -352,7 +351,6 @@
       "youtube-background"
     ],
     "ids": [
-      "",
       "accordion1",
       "accordion2",
       "back-to-top",
@@ -388,7 +386,6 @@
       "portfolio-item",
       "pricing",
       "schedule-call",
-      "schedule-call btn btn-primary",
       "service",
       "style-switch",
       "subject",
