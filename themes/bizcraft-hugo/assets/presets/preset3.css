@@ -43,7 +43,7 @@ blockquote {
 ================================================== */
 
 .heading:hover .title-icon{
-	color: #ff0000cc;
+	/* color: #ff0000cc; */
 }
 
 h2.entry-title a:hover{

@@ -111,12 +111,15 @@ funfact:
   
 ############################### feature ##################################
 feature:
+  title : "Service We Provide"
+  subtitle : "A Quality Experience Team with 4 years experience"
+  title_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
   enable : true
   feature_item:
   # How We Work Section
   # feature item loop
   - name : "Protective Measures"
-    icon : "fa-shield-alt" # Updated to FA6 for safety and protection
+    icon : "fa-shield" # Updated to FA6 for safety and protection
     content : "Use of protective barriers, coverings, and dust control for selective/active business projects."
 
   # feature item loop
@@ -154,6 +157,12 @@ feature:
     icon : "fa-square-check" # Updated to FA6 for checking and verification
     content : "Creating punch lists before wrap-up to ensure quality."
 
+feature2:
+  title1 : "The Steps"
+  subtitle1 : "A comprehensive overview of our procedure."
+  title1_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  enable : true
+  feature_item2:
   # Step by Step Section
   # feature item loop
   - name : "Inquiry Response"
@@ -173,7 +182,7 @@ feature:
   # feature item loop
   - name : "Proposal Review"
     icon : "fa-4" # FA6 number icon for step 4
-    content : "Delivering and reviewing proposal within 1 week of site visit, including necessary documentation."
+    content : "Delivering and reviewing proposal within 1 week of site visit, including project timeline, W9, business license, insurance certificate."
 
   # feature item loop
   - name : "Contract Clarification"
@@ -202,7 +211,7 @@ feature:
 
   # feature item loop
   - name : "Final Steps"
-    icon : "fa-10" # FA6 number icon for step 10
+    icon : "fa-check" # FA6 number icon for step 10
     content : "Final payment and satisfaction survey."
 
 
