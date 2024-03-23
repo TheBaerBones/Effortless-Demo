@@ -1657,7 +1657,7 @@ ul.arrow li:before {
 #schedule-call {
 	right: 40px;
 	top: auto;
-	z-index: 10;
+	z-index: 150;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -1673,11 +1673,11 @@ ul.arrow li:before {
 }
 
 #schedule-call .btn.btn-primary.solid {
-	background: hwb(0 0% 0% / 0.8);
+	background: hwb(0 0% 0% / 0.9);
 }
 
 #schedule-call .btn.btn-primary:hover {
-	background-color: rgba(255, 0, 0, 0.3); /* More transparent red background on hover */
+	background-color: rgba(255, 0, 0, 0.5); /* More transparent red background on hover */
 	color: #000;
 }
 
