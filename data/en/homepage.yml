@@ -80,7 +80,7 @@ portfolio:
   enable : true
   title : "Affiliates & Certifications"
   subtitle : "Professional Partners and Accredited Qualifications"
-  title_icon : "fa-suitcase"
+  title_icon : "fa-certificate"
   # portfolio items comes from "content/*/portfolio" folder
 
   
@@ -109,11 +109,11 @@ funfact:
       count : "78"
 
   
-############################### feature ##################################
+############################### feature 1 ##################################
 feature:
   title : "Our Protocols"
   subtitle : "From Safety Protocols to Project Timelines: Understanding Our Commitment to You"
-  title_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  title_icon : "fa-cogs"
   enable : true
   feature_item:
   # How We Work Section
@@ -157,10 +157,13 @@ feature:
     icon : "fa-square-check" # Updated to FA6 for checking and verification
     content : "Creating punch lists before wrap-up to ensure quality."
 
+
+
+############################### feature 2 ##################################
 feature2:
   title1 : "Our Method"
   subtitle1 : "Your Guide Through Our Detailed Procedure."
-  title1_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  title1_icon : "fa-pencil-square-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
   enable : true
   feature_item2:
   # Step by Step Section
