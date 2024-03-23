@@ -1164,17 +1164,14 @@ figure.effect-oscar figcaption {
 
 figure.effect-oscar h3 {
   font-size: 18px;
+  /* Default font size */
   color: #fff;
   opacity: 0;
-  /* Start with h3 invisible for the transition effect */
   margin: 0;
-  /* Ensure no default margins are affecting the centering */
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0, 0, 0);
-  /* Adjust translation to ensure it starts centered */
-  transform: translate3d(0, 0, 0);
-  /* Adjust translation to ensure it starts centered */ }
+  transform: translate3d(0, 0, 0); }
 
 figure.effect-oscar figcaption::before {
   position: absolute;
@@ -2730,8 +2727,6 @@ a.close-styler {
     padding: 5px 10px;
     margin-bottom: 10px;
     display: inline-block; }
-  figure.effect-oscar h3 {
-    margin-top: 25%; }
   #isotope .isotope-item .grid {
     padding-left: 10px;
     padding-right: 10px; }
