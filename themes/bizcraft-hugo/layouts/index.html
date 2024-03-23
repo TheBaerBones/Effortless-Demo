@@ -254,9 +254,9 @@
       <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
         {{ range .slider_item }}
         <figure class="m-0 item client_logo">
-          <a href="{{ .link | safeURL }}">
+          <!-- <a href="{{ .link | safeURL }}"> -->
             <img src="{{ .logo | absURL }}" alt="{{ .name }}">
-          </a>
+          <!-- </a> -->
         </figure>
         {{ end }}
       </div><!-- Owl carousel end -->
