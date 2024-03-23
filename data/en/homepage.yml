@@ -339,6 +339,86 @@ clients_logo_slider:
       logo : "images/clients/client8.png"
       link : "#"
 
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client9.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client10.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client11.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client12.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client13.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client14.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client15.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client16.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client17.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client18.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client19.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client20.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client21.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client22.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client23.png"
+      link : "#"
+
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client24.png"
+      link : "#"
+
 
 ############################ Affiliates logo slider ##########################
 affiliates_logo_slider:
