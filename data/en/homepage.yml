@@ -79,7 +79,7 @@ service:
 portfolio:
   enable : true
   title : "Our Affiliates & Certifications"
-  subtitle : "We Making Difference To Great Things Possible"
+  subtitle : "Professional Partners and Accredited Qualifications"
   title_icon : "fa-suitcase"
   # portfolio items comes from "content/*/portfolio" folder
 
