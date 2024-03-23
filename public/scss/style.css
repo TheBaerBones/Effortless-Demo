@@ -48,7 +48,7 @@ body, p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'JaapokkiRegular';
   text-transform: uppercase;
-  letter-spacing: 0.5px; }
+  letter-spacing: 2px; }
 
 h1, .h1 {
   font-size: 36px;
@@ -1639,15 +1639,10 @@ figure.effect-oscar:hover img {
 /* Clients
 ================================================== */
 .clients {
-  color: #fff;
   padding-bottom: 80px; }
 
 .clients-content {
   padding: 40px 0; }
-
-.clients h2.title {
-  border-left: 0;
-  color: #fff; }
 
 .client-carousel .item a {
   margin-right: 20px;
