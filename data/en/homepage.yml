@@ -338,3 +338,51 @@ clients_logo_slider:
     - name : "client"
       logo : "images/clients/client8.png"
       link : "#"
+
+
+############################ Affiliates logo slider ##########################
+affiliates_logo_slider:
+  title : "Our Past Clients"
+  subtitle : "See Who We've Worked With"
+  title3_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  enable : true
+  slider_item:
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client1.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client2.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client3.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client4.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client5.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client6.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client7.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client8.png"
+      link : "#"
