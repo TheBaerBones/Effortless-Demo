@@ -612,6 +612,7 @@ figure.effect-oscar {
 	background: rgba(0, 0, 0, .8);
 }
 
+
 figure.effect-oscar img {
 	display: block;
 	width: 100%;
@@ -622,12 +623,32 @@ figure.effect-oscar img {
 	backface-visibility: hidden;
 }
 
+// figure.effect-oscar figcaption {
+// 	padding: 2.5em;
+// 	background-color: rgba(0, 0, 0, 0.1);
+// 	-webkit-transition: background-color 0.35s;
+// 	transition: background-color 0.35s;
+// }
+
 figure.effect-oscar figcaption {
-	padding: 2.5em;
-	background-color: rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
-}
+  }
+  
+  figure.effect-oscar h3 {
+	font-size: 18px;
+	color: #fff;
+	opacity: 0; /* Start with h3 invisible for the transition effect */
+	margin: 0; /* Ensure no default margins are affecting the centering */
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0, 0, 0); /* Adjust translation to ensure it starts centered */
+	transform: translate3d(0, 0, 0); /* Adjust translation to ensure it starts centered */
+  }    
 
 figure.effect-oscar figcaption::before {
 	position: absolute;
@@ -639,16 +660,16 @@ figure.effect-oscar figcaption::before {
 	content: '';
 }
 
-figure.effect-oscar h3 {
-	font-size: 18px;
-	color: #fff;
-	opacity: 0;
-	margin: 25% 0 10px 0;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0, 100%, 0);
-	transform: translate3d(0, 100%, 0);
-}
+// figure.effect-oscar h3 {
+// 	font-size: 18px;
+// 	color: #fff;
+// 	opacity: 0;
+// 	margin-top: 37.5%;
+// 	-webkit-transition: -webkit-transform 0.35s;
+// 	transition: transform 0.35s;
+// 	-webkit-transform: translate3d(0, 100%, 0);
+// 	transform: translate3d(0, 100%, 0);
+// }
 
 figure.effect-oscar a {
 	color: #fff;
