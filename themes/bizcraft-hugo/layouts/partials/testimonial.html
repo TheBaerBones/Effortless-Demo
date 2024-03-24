@@ -7,9 +7,9 @@
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
         {{ range .testimonial_item }}
         <div class="item">
-          <div class="testimonial-thumb">
+          <!-- <div class="testimonial-thumb">
             <img src="{{ .image | absURL }}" alt="testimonial">
-          </div>
+          </div> -->
           <div class="testimonial-content">
             <p class="testimonial-text">{{ .content | markdownify }}</p>
             <h3 class="name">{{ .name | markdownify }}<span>{{.designation | markdownify}}</span></h3>

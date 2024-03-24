@@ -280,22 +280,22 @@ testimonial:
   bg_image : "images/parallax/parallax2.jpg"
   testimonial_item:
     # testimonial item loop
-    - name : "Sarah Arevik"
+    - name : "Rick C."
       image : "images/team/testimonial1.jpg"
-      designation : "Chief Executive"
-      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+      designation : "Residential Re-Developer"
+      content : "I had a house in the process of retrofitting, and squatters took over and trashed the house and yard... [Effortless] arrived as stated and kept in contact throughout the day with questions and comments... when they were finished and sent pics of the area. Fantastic!"
       
     # testimonial item loop
-    - name : "Narek Bedros"
+    - name : "Beth R."
       image : "images/team/testimonial2.jpg"
-      designation : "Chief Executive"
-      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+      designation : "Realtor"
+      content : "Max was great to work with! He gave a very reasonable price for a full house and garage cleanout to prep for a listing. My clients and I were very happy with the results!"
       
     # testimonial item loop
-    - name : "Taline Lucine"
+    - name : "Derrick W."
       image : "images/team/testimonial3.jpg"
-      designation : "Sales Manager"
-      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+      designation : "Property Maintenance Supervisor"
+      content : "Effortless Junk Removal has been amazing in being so responsive, and fast too! Max is incredibly professional, and strives to make sure you’re getting the best service you can get!"
 
 
 ############################ Clients logo slider ##########################
