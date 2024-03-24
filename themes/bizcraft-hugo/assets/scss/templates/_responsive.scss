@@ -184,6 +184,10 @@
 	.parallax{
 		padding: 60px 0;
 	}
+	.parallax .btn.solid {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
 	.style-switch-button{
 		display: none;
 	}
@@ -378,7 +382,7 @@
 	#schedule-call {
 		right: 20px;
 	}
-	
+
 	#schedule-call.affix {
 		bottom: 20px;
 	}
