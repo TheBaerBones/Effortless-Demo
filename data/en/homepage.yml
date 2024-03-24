@@ -253,20 +253,17 @@ team:
 ############################ Call to action #############################
 call_to_action:
   enable : true
-  title : "Are You Ready to Buy This Template!"
-  subtitle : "Just Click Button and Use Your Own"
+  title : "Ready to Start Your Next Demolition Project?"
+  subtitle : "Let's Make Your Space a Blank Canvas"
   bg_image : "images/parallax/parallax1.jpg"
   buttons:
-    # button loop
-    - label : "Purchase Now"
+    - label : "Schedule a Consultation"
       style : "white"
-      link : "#"
+      link : "https://calendly.com/effortless-demo/disco15"
       
-    # button loop
-    - label : "Get In Touch"
+    - label : "Learn More"
       style : "solid"
-      link : "#"
-
+      link : "services/"
 
 ############################### pricing ####################################
 pricing:
