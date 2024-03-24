@@ -25,7 +25,7 @@ slider:
         # button loop
         - label : "Learn More"
           style : "solid"
-          link : "services/"
+          link : "service/"
 
     ############### Slider item loop
     - title : "How Big Can You Dream?"
@@ -264,7 +264,7 @@ call_to_action:
       
     - label : "Learn More"
       style : "solid"
-      link : "services/"
+      link : "service/"
 
 ############################### pricing ####################################
 pricing:
