@@ -2676,6 +2676,8 @@ a.close-styler {
   /* Back to top */
   #back-to-top.affix {
     bottom: 35px; }
+  #schedule-call.affix {
+    bottom: 35px; }
   /* Video block */
   .video-block-head {
     margin-top: 30px; }
@@ -2801,6 +2803,10 @@ a.close-styler {
   #back-to-top {
     right: 20px; }
   #back-to-top.affix {
+    bottom: 20px; }
+  #schedule-call {
+    right: 20px; }
+  #schedule-call.affix {
     bottom: 20px; }
   /* Call action */
   .call-to-action .btn.btn-primary {
