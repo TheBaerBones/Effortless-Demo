@@ -124,13 +124,13 @@ weight = 2
 #  weight = 3
 
 [[Languages.en.menu.main]]
-  name = "Contact"
-  URL = "contact/"
+  name = "About"
+  URL = "about/"
   weight = 4
 
 [[Languages.en.menu.main]]
-  name = "About"
-  URL = "about/"
+  name = "Contact"
+  URL = "contact/"
   weight = 5
 
 # [[Languages.en.menu.main]]
@@ -206,14 +206,15 @@ weight = 2
 #  weight = 3
 
 [[Languages.en.menu.footer]]
-  name = "Contact"
-  URL = "contact/"
+  name = "About"
+  URL = "about/"
   weight = 4
 
 [[Languages.en.menu.footer]]
-  name = "About"
-  URL = "about/"
+  name = "Contact"
+  URL = "contact/"
   weight = 5
+
 
 # [[Languages.en.menu.footer]]
 #  name = "FAQ"

@@ -269,4 +269,28 @@ jQuery(function ($) {
 
   $('#back-to-top').tooltip('hide');
 
+
+
+  /* ----------------------------------------------------------- */
+  /*  Schedule Call
+  /* ----------------------------------------------------------- */
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $('#schedule-call').fadeIn();
+    } else {
+      $('#schedule-call').fadeOut();
+    }
+  });
+  // scroll body to 0px on click
+  $('#schedule-call').click(function () {
+    $('#schedule-call').tooltip('hide');
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
+
+  $('#schedule-call').tooltip('hide');
+
 });
