@@ -136,6 +136,10 @@
 		bottom: 35px;
 	}
 
+	#schedule-call.affix {
+		bottom: 35px;
+	}
+
 	/* Video block */
 
 	.video-block-head{
@@ -368,6 +372,14 @@
 		right: 20px;
 	}
 	#back-to-top.affix {
+		bottom: 20px;
+	}
+
+	#schedule-call {
+		right: 20px;
+	}
+	
+	#schedule-call.affix {
 		bottom: 20px;
 	}
 
