@@ -8,7 +8,7 @@ images:
 # clients
 clients : "BizCraft Incorporatin Ltd."
 # filter types
-types: ["affiliation"]
+types: ["affiliates"]
 # used skills
 skills: ["HTML5","css3","jQuery","Ruby & Rails"]
 # porjects link

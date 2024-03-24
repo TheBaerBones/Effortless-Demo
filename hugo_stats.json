@@ -46,6 +46,7 @@
     "classes": [
       "accordion",
       "active",
+      "affiliates",
       "affiliation",
       "affix",
       "align-items-center",
@@ -79,6 +80,7 @@
       "cd-hero-slider",
       "cd-img-container",
       "certification",
+      "certifications",
       "classic",
       "clearfix",
       "client-carousel",
