@@ -88,25 +88,26 @@ portfolio:
 funfact:
   enable : true
   funfact_item:
-    # funfact item loop
-    - name : "Clients"
-      icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1200"
-      
-    # funfact item loop
-    - name : "Item Sold"
-      icon : "fa-institution" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1277"
-      
-    # funfact item loop
-    - name : "Projects"
-      icon : "fa-suitcase" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "857"
-      
-    # funfact item loop
-    - name : "Awwards"
-      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "78"
+  # funfact item loop
+  - name : "Satisfied Clients"
+    icon : "fa-thumbs-up" # Suggesting an icon that reflects satisfaction and happiness.
+    count : "25"
+    
+  # funfact item loop
+  - name : "Hours of Training"
+    icon : "fa-clock-o" # Suggesting an icon that directly relates to time to better represent hours.
+    count : "4000"
+    
+  # funfact item loop
+  - name : "Laborers on Call"
+    plus : "fa-plus"
+    icon : "fa-phone" # Suggesting an icon that symbolizes availability and readiness to indicate on-call status.
+    count : "10"
+    
+  # funfact item loop
+  - name : "Largest Project (sq ft.)"
+    icon : "fa-building-o" # Suggesting an icon that represents physical structures, correlating with the notion of project size.
+    count : "20000"
 
   
 ############################### feature 1 ##################################
