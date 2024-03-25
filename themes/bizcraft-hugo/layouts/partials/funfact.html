@@ -7,8 +7,10 @@
       <div class="facts one col-md-3 col-sm-6">
         <span class="facts-icon"><i class="fa {{.icon}}"></i></span>
         <div class="facts-num">
-          <span class=""><i class="fa {{.plus}}"></i></span>
-          <span class="counter"><i class="fa {{.plus}}"></i>{{ .count }}</span>
+          <span><i class="fa {{.plus}}"></i></span>
+          <span class="counter">{{ .count }}</span>
+          <span><i>{{.sqft}}</i></span>
+          <!-- <span class="counter">{{ .count }}</span> -->
         </div>
         <h3>{{ .name | markdownify }}</h3>
       </div>

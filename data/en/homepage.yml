@@ -105,8 +105,9 @@ funfact:
     count : "10"
     
   # funfact item loop
-  - name : "Largest Project (sq ft.)"
+  - name : "Largest Project"
     icon : "fa-building-o" # Suggesting an icon that represents physical structures, correlating with the notion of project size.
+    sqft : "²" # Suggesting an icon that symbolizes availability and readiness to indicate on-call status. ²
     count : "20000"
 
   
