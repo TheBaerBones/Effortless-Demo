@@ -9,8 +9,8 @@
     <!-- Company Profile -->
     <div class="row">
       <div class="col-md-12 heading">
-        <span class="title-icon classic float-left"><i class="fa {{.icon}}"></i></span>
-        <h2 class="title classic">{{ .title | markdownify }}</h2>
+        {{ with .title_icon }} <span class="title-icon float-left"><i class="fa {{ . }}"></i></span> {{ end }}
+        <h2 class="title classic">{{ .title | markdownify }} <span class="title-desc">{{ .subtitle | markdownify }}</span></h2>
       </div>
     </div><!-- Title row end -->
 
@@ -64,8 +64,8 @@
     <!-- Company Profile 1 -->
     <div class="row">
       <div class="col-md-12 heading">
-        <span class="title-icon classic float-left"><i class="fa {{.icon}}"></i></span>
-        <h2 class="title classic">{{ .title1 | markdownify }}</h2>
+        {{ with .title_icon }} <span class="title-icon float-left"><i class="fa {{ . }}"></i></span> {{ end }}
+        <h2 class="title classic">{{ .title | markdownify }} <span class="title-desc">{{ .subtitle | markdownify }}</span></h2>
       </div>
     </div><!-- Title row end -->
 

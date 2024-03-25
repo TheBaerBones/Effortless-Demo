@@ -2,7 +2,8 @@
 company_profile:
   enable : true
   title : "Our Story"
-  title_icon : "fa-suitcase"
+  subtitle : "Where We Are and How We Got Here"
+  title_icon : "fa-feather-alt"
   profile_tab:
     - name : "Our Evolution"
       icon : "fa-leaf"
@@ -21,8 +22,9 @@ company_profile:
   
 company_profile1:
   enable : true
-  title1 : "Our Guarantees"
-  title_icon : "fa-suitcase"
+  title : "Our Guarantees"
+  subtitle : "Commitments You Can Count On"
+  title_icon : "fa-check-circle"
   profile_tab:
     - name : "On-Time Completion"
       icon : "fa-clock-o"
