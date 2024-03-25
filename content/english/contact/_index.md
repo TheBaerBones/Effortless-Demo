@@ -7,5 +7,3 @@ description: "This is meta description."
 # save as draft
 draft: false
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat magna. Pellentesque justo ante
