@@ -256,7 +256,7 @@ team:
 call_to_action:
   enable : true
   title : "Ready for a Space Transformation?"
-  subtitle : "Start Your Demo"
+  subtitle : "Start Your Demolition"
   bg_image : "images/parallax/parallax1.jpg"
   buttons:
     - label : "Schedule a Consultation"
