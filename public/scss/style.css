@@ -630,6 +630,10 @@ blockquote {
   @media (max-width: 991px) {
     .navbar-brand.navbar-bg {
       width: auto; } }
+.navbar-link-a {
+  position: relative;
+  z-index: 1000; }
+
 /* Header Style - 2
 ================================================== */
 .header2 {
