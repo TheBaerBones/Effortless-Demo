@@ -1,5 +1,5 @@
 ---
-title: "Service"
+title: "Our Services"
 # page header background image
 page_header_bg: "images/banner/banner1.jpg"
 # meta description
