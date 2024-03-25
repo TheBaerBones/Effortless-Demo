@@ -177,6 +177,16 @@
 }
 
 /* Small Devices Potrait */
+@media (max-width : 900px){
+	.facts {
+		padding: 46px 25px 30px;
+	}
+	.facts-num span{
+		// font-size: 33px;
+		margin-top: 20px;
+	}
+}
+
 @media (max-width : 767px){
 
 	
