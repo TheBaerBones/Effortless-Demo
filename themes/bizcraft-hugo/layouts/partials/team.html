@@ -9,7 +9,7 @@
       </div>
     </div><!-- Title row end -->
 
-    <div class="row text-center">
+    <div class="row text-center justify-content-center">
       {{ range $index,$elements:= .team_member }}
       {{ if lt $index 4}}
       <div class="col-md-3 col-sm-6">
@@ -24,7 +24,7 @@
             <p>{{ .designation | markdownify }}</p>
             <div class="team-social">
               {{ range .social }}
-              <a class="{{ .name }}" href="{{ .link | safeURL }}"><i class="fa {{.icon}}"></i></a>
+              <a class="{{ .name }}" href="{{ .link | safeURL }}"><i class="fab {{ .icon }}"></i></a>
               {{ end }}
             </div>
           </div>

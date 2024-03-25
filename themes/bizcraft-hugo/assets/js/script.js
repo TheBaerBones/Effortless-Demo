@@ -283,13 +283,13 @@ jQuery(function ($) {
     }
   });
   // scroll body to 0px on click
-  $('#schedule-call').click(function () {
-    $('#schedule-call').tooltip('hide');
-    $('body,html').animate({
-      scrollTop: 0
-    }, 800);
-    return false;
-  });
+  // $('#schedule-call').click(function () {
+  //   $('#schedule-call').tooltip('hide');
+  //   $('body,html').animate({
+  //     scrollTop: 0
+  //   }, 800);
+  //   return false;
+  // });
 
   $('#schedule-call').tooltip('hide');
 
