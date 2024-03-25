@@ -277,6 +277,10 @@ pricing:
 testimonial:
   enable : true
   bg_image : "images/parallax/parallax2.jpg"
+  buttons:
+    - label : "See All References"
+      style : "solid"
+      link : "images/pdf/Client-References.pdf"
   testimonial_item:
     # testimonial item loop
     - name : "Rick C."

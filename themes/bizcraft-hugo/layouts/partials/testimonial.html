@@ -2,15 +2,15 @@
 {{ with $data.homepage.testimonial }}
 <section class="testimonial parallax" style="background-image: url('{{ .bg_image | absURL}}');">
   <div class="parallax-overlay"></div>
-  <div class="container">
-    <div class="row">
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
         {{ range .testimonial_item }}
         <div class="item">
           <!-- <div class="testimonial-thumb">
             <img src="{{ .image | absURL }}" alt="testimonial">
           </div> -->
-          <div class="testimonial-content">
+          <div class="testimonial-content justify-content-center">
             <p class="testimonial-text">{{ .content | markdownify }}</p>
             <h3 class="name">{{ .name | markdownify }}<span>{{.designation | markdownify}}</span></h3>
           </div>
@@ -18,6 +18,9 @@
         {{ end }}
       </div>
       <!--/ Testimonial carousel end-->
+        {{ range .buttons }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}} ref-btn mt-3" target="_blank" rel="noopener noreferrer" >{{ .label }}</a>
+        {{ end }}      
     </div>
     <!--/ Row end-->
   </div>

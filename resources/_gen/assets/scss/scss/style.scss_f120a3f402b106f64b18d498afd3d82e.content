@@ -2091,6 +2091,11 @@ ul.arrow li:before {
   text-transform: capitalize;
   color: #555; }
 
+.ref-btn {
+  position: relative;
+  z-index: 10;
+  margin-left: 0px !important; }
+
 /* Faq Page */
 .faq-box {
   margin-bottom: 45px; }
