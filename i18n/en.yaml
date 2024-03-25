@@ -11,7 +11,10 @@
   translation: Flickr Photos
 
 - id: about_us
-  translation: About Us
+  translation: About
+
+- id: contact_us
+  translation: Contact
 
 - id: continue_reading
   translation: Continue Reading
@@ -25,8 +28,8 @@
 - id: subject
   translation: Subject
 
-- id: quick_links
-  translation: Quick Links
+- id: navigate
+  translation: Navigate
 
 - id: message
   translation: Message

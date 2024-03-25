@@ -2,24 +2,33 @@
 <footer id="footer" class="footer">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-4 col-sm-12 footer-widget">
+
+
+			<!-- <div class="col-md-4 col-sm-12 footer-widget">
 				<h3 class="widget-title">{{i18n `recent_post`}}</h3>
         {{ range first 4 ( where .Site.RegularPages "Section" "portfolio" )}}
 				<div class="latest-post-items media mb-3">
 					<div class="latest-post-content media-body">
 						<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
 						<p class="post-meta">
-							<!-- <span class="author"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Date}}</a></span> -->
 							<span class="author">{{ .Params.Description}}</span>
-							<!-- <span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
-								href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"> {{ if ne $index 0 }}, {{ end }}
-								{{ . | title }}</a> {{ end}}</span> -->
 						</p>
 					</div>
-				</div><!-- Latest Post end -->
+				</div>
 				{{ end }}
-			</div>
+			</div> -->
 			<!--/ End Recent Posts-->
+
+
+
+			<!-- Additional Info for Recent Posts under post-meta p -->
+
+				<!-- <span class="author"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Date}}</a></span> -->
+
+				<!-- <span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
+					href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"> {{ if ne $index 0 }}, {{ end }}
+					{{ . | title }}</a> {{ end}}</span> -->
+
 
 
 			<!-- <div class="col-md-4 col-sm-12 footer-widget">
@@ -37,21 +46,9 @@
 			</div> -->
 			<!--/ end flickr -->
 
-
-			<div class="col-md-4 col-sm-6 quick-links-container">
-				<h3 class="widget-title">{{ i18n "quick_links" }}</h3>
-				<div class="quick-links-content media-body">
-				  {{ range site.Menus.footer }}
-				  <p class="latest-post-content media-body mb-4"><a href="{{ .URL | relLangURL }}" class="">{{ .Name }}</a></p>
-				  {{ end }}
-				  </div>
-			    </div>
-			    <!-- end Quick Links -->
-		  
-
-			<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
-				<h3 class="widget-title">{{i18n `about_us`}}</h3>
-				<p>{{ .Site.Params.footer_content | markdownify }}</p>
+		  			
+			<div class="col-md-3 col-sm-12 footer-widget footer-about-us text-center">
+				<h3 class="widget-title">{{i18n `contact_us`}}</h3>
 				<h4>Address</h4>
 				<p>{{ .Site.Params.address | markdownify }}</p>
 				<div class="mb-4">
@@ -63,7 +60,25 @@
 					<a href="tel:253.290.7721"><p>{{ .Site.Params.phone | markdownify }}</p></a>
 				</div>
 			</div>
+			<!--/ end contact us -->
+
+			<div class="col-md-3 col-sm-6 quick-links-container text-center mx-0 mx-lg-5 my-5 my-lg-0">
+				<h3 class="widget-title">{{ i18n "navigate" }}</h3>
+				<div class="quick-links-content media-body">
+				  {{ range site.Menus.footer }}
+				  <p class="latest-post-content media-body mb-4"><a href="{{ .URL | relLangURL }}" class="">{{ .Name }}</a></p>
+				  {{ end }}
+				  </div>
+			    </div>
+			    <!-- end Quick Links or "Navigate" -->			
+
+			<div class="col-md-3 col-sm-12 footer-widget footer-about-us text-center">
+				<h3 class="widget-title">{{i18n `about_us`}}</h3>
+				<p>{{ .Site.Params.footer_content | markdownify }}</p>
+			</div>
 			<!--/ end about us -->
+
+
 		</div><!-- Row end -->
 	</div><!-- Container end -->
 </footer><!-- Footer end -->
