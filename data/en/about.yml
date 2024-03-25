@@ -1,7 +1,7 @@
 ############################ Company Profile ########################
 company_profile:
   enable : true
-  title : "Our Story and Guarantees"
+  title : "Our Story"
   title_icon : "fa-suitcase"
   profile_tab:
     - name : "Our Evolution"
@@ -18,7 +18,12 @@ company_profile:
       icon : "fa-users"
       title : "The Backbone of Our Success"
       content : "Our team comprises highly skilled leaders with over 4,000 hours of specialized training, including OSHA30, First Aid, and CPR, among others. We are proud to facilitate apprenticeship opportunities that meet Apprenticeship Utilization Requirements (AURs) and maintain an extended network of over 10 on-call laborers to manage large-scale or urgent projects efficiently."
-
+  
+company_profile1:
+  enable : true
+  title1 : "Our Guarantees"
+  title_icon : "fa-suitcase"
+  profile_tab:
     - name : "On-Time Completion"
       icon : "fa-clock-o"
       title : "Guaranteed Timeliness"
@@ -57,5 +62,10 @@ funfact:
 
 ############################### team ####################################
 team:
+  enable : true
+  # team content comes from "data/team.yml" file
+
+############################### team ####################################
+testimonial:
   enable : true
   # team content comes from "data/team.yml" file
