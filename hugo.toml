@@ -66,7 +66,9 @@ unsafe= true
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/all.css"
+link = "plugins/fontawesome/css/all.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/css/brands.css"
 [[params.plugins.css]]
 link = "plugins/fontawesome/font-awesome.min.css"
 [[params.plugins.css]]
