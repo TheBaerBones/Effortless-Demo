@@ -115,7 +115,7 @@ funfact:
 feature:
   title : "Our Protocols"
   subtitle : "From Safety Protocols to Project Timelines: Understanding Our Commitment to You"
-  title_icon : "fa-cogs"
+  title_icon : "fa-book-open"
   enable : true
   feature_item:
   # How We Work Section
