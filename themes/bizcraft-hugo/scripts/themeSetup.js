@@ -16,7 +16,7 @@ const deleteFolder = (folderPath) => {
 const getFolderName = (rootfolder) => {
   const configPath = path.join(
     rootfolder,
-    "exampleSite/config.toml"
+    "exampleSite/hugo.toml"
   );
   const getConfig = fs.readFileSync(configPath, "utf8");
   const match = getConfig.match(/theme\s*=\s*\[?"([^"\]]+)"\]?/);
@@ -50,7 +50,7 @@ const setupTheme = () => {
 
   if (!fs.existsSync(path.join(rootFolder, "exampleSite"))) {
     const includesFiles = [
-      "config.toml",
+      "hugo.toml",
       "assets",
       "config",
       "data",

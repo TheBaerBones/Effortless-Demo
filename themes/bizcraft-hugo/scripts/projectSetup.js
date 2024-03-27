@@ -4,7 +4,7 @@ const path = require("path");
 const getFolderName = (rootfolder) => {
   const configPath = path.join(
     rootfolder,
-    "exampleSite/config.toml"
+    "exampleSite/hugo.toml"
   );
   const getConfig = fs.readFileSync(configPath, "utf8");
   const match = getConfig.match(/theme\s*=\s*\[?"([^"\]]+)"\]?/);
