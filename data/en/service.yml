@@ -1,7 +1,8 @@
 ############################### Services #############################
 services:
   title: "What We Do"
-  subtitle: "We do everything interior demolition. See all of Capabilities [here](service/)."
+  subtitle: "We do everything interior demolition."
+  subtitle1: "We do everything interior demolition. See all of Capabilities [here](service/)."
   title_icon: "fa-wrench"
   service_item:
     - name: "Selective Demolition \"Soft Stripping\""
