@@ -1219,13 +1219,6 @@ figure.effect-oscar:hover h3 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-figure.effect-oscar:hover figcaption::before,
-figure.effect-oscar:hover h3,
-figure.effect-oscar:hover a {
-  opacity: 0;
-  -webkit-transform: scale(1);
-  transform: scale(1); }
-
 figure.effect-oscar:hover img {
   opacity: 0.95; }
 
