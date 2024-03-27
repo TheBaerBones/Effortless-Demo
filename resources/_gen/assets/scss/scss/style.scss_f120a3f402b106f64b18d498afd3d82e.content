@@ -1184,17 +1184,17 @@ figure.effect-oscar h3 {
 
 figure.effect-oscar figcaption::before {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   content: ''; }
 
 figure.effect-oscar a {
   color: #fff;
   font-size: 18px;
-  margin: 20px 5px 0;
+  margin: 200px 5px 0;
   display: inline-block;
   z-index: 1;
   position: relative;
@@ -2653,10 +2653,10 @@ a.close-styler {
   figure.effect-oscar figcaption {
     padding: 1.5em; }
   figure.effect-oscar figcaption::before {
-    top: 15px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px; }
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+    left: 12px; }
   figure.effect-oscar h3 {
     margin-top: 0;
     font-size: 16px; }

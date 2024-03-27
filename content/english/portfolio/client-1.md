@@ -4,9 +4,9 @@ date: 2020-05-12T12:14:34+06:00
 # page header background image
 page_header_bg: "images/banner/client1.png"
 images: 
-  - "images/portfolio/client1.svg"
+  - "images/portfolio/clients/client1.svg"
 # clients
-clients : "BizCraft Incorporatin Ltd."
+clients : "Oso Group Incorporated"
 # filter types
 types: ["clients"]
 # used skills
