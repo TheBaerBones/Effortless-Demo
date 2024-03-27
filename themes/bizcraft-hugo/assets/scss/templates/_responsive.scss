@@ -74,10 +74,10 @@
 		padding: 1.5em;
 	}
 	figure.effect-oscar figcaption::before{
-		top: 12px;
-		right: 12px;
-		bottom: 12px;
-		left: 12px;
+		top: 6px;
+		right: 6px;
+		bottom: 6px;
+		left: 6px;
 	}
 	figure.effect-oscar h3{
 		margin-top: 0;
@@ -212,8 +212,9 @@
 	}
 
 	h2.title{
-		font-size: 28px;
+		font-size: 25px;
 		border-left: 0;
+		padding-left: 0px;
 	}
 
 	.title-desc{

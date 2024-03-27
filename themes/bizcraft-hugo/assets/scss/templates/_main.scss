@@ -654,10 +654,10 @@ figure.effect-oscar figcaption {
 
 figure.effect-oscar figcaption::before {
 	position: absolute;
-	top: 20px;
-	right: 20px;
-	bottom: 20px;
-	left: 20px;
+	top: 15px;
+	right: 15px;
+	bottom: 15px;
+	left: 15px;
 	border: 1px solid rgba(255, 255, 255, .3);
 	content: '';
 }
