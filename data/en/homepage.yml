@@ -78,7 +78,7 @@ service:
 ############################### portfolio ##################################
 portfolio:
   enable : true
-  title : "Affiliates & Certifications"
+  title : "Clients, Affiliates, & Certifications"
   subtitle : "Professional Partners and Accredited Qualifications"
   title_icon : "fa-certificate"
   # portfolio items comes from "content/*/portfolio" folder
