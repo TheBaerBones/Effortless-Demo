@@ -2801,6 +2801,8 @@ a.close-styler {
   .facts-num span {
     font-size: 48px;
     margin-top: 20px; }
+    .facts-num span .sqft-icon {
+      font-size: 48px; }
   .facts i {
     font-size: 32px; }
   /* Team */
