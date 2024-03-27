@@ -99,11 +99,13 @@
 {{ end }}
 <!-- Portfolio end -->
 
-<!-- Counter Strat -->
-{{ if $data.homepage.funfact.enable }}
-{{ partial "funfact.html" . }}
+
+<!-- Testimonial start-->
+{{ if $data.homepage.testimonial.enable }}
+{{ partial "testimonial.html" . }}
 {{ end }}
-<!--/ Counter end -->
+<!--/ Testimonial end-->
+
 
 <!-- Feature box start -->
 {{ if $data.homepage.feature.enable }}
@@ -134,6 +136,15 @@
 {{ end }}
 <!--/ Feature box end -->
 
+
+<!-- Counter Strat -->
+{{ if $data.homepage.funfact.enable }}
+{{ partial "funfact.html" . }}
+{{ end }}
+<!--/ Counter end -->
+
+
+<!-- About Section -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section id="image-block" class="image-block p-0">
@@ -171,32 +182,11 @@
 
 
 <!-- Team start -->
-{{ if $data.homepage.team.enable }}
+<!-- {{ if $data.homepage.team.enable }}
 {{ partial "team.html" . }}
-{{ end }}
+{{ end }} -->
 <!--/ Team end -->
 
-<!-- Parallax 1 start -->
-{{ if $data.homepage.call_to_action.enable }}
-{{ with $data.homepage.call_to_action }}
-<section class="parallax" style="background-image: url('{{ .bg_image | absURL}}');">
-  <div class="parallax-overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        <h3>{{ .subtitle | markdownify}}</h3>
-        <p>
-          {{ range .buttons }}
-          <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}}">{{ .label }}</a>
-          {{ end }}
-        </p>
-      </div>
-    </div>
-  </div><!-- Container end -->
-</section><!-- Parallax 1 end -->
-{{ end }}
-{{ end }}
 
 <!-- Feature box 2 start -->
 {{ if $data.homepage.feature2.enable }}
@@ -229,6 +219,28 @@
 <!--/ Feature box 2 end -->
 
 
+<!-- Parallax 1 start -->
+{{ if $data.homepage.call_to_action.enable }}
+{{ with $data.homepage.call_to_action }}
+<section class="parallax" style="background-image: url('{{ .bg_image | absURL}}');">
+  <div class="parallax-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <h3>{{ .subtitle | markdownify}}</h3>
+        <p>
+          {{ range .buttons }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}}">{{ .label }}</a>
+          {{ end }}
+        </p>
+      </div>
+    </div>
+  </div><!-- Container end -->
+</section><!-- Parallax 1 end -->
+{{ end }}
+{{ end }}
+
 
 <!-- Pricing table start -->
 <!-- {{ if $data.homepage.pricing.enable }}
@@ -238,15 +250,8 @@
 
 
 
-<!-- Testimonial start-->
-{{ if $data.homepage.testimonial.enable }}
-{{ partial "testimonial.html" . }}
-{{ end }}
-<!--/ Testimonial end-->
-
-
 <!-- Clients start -->
-{{ if $data.homepage.clients_logo_slider.enable }}
+<!-- {{ if $data.homepage.clients_logo_slider.enable }}
 {{ with $data.homepage.clients_logo_slider }}
 <section id="clients" class="clients">
   <div class="container">
@@ -255,24 +260,21 @@
         {{ with .title_icon }} <span class="title-icon float-left"><i class="fa {{ . }}"></i></span> {{ end }}
         <h2 class="title">{{ .title | markdownify }}  <span class="title-desc">{{ .subtitle | markdownify }}</span></h2>
       </div>
-    </div><!-- Title row end -->
+    </div>
 
     <div class="row wow fadeInLeft">
       <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
         {{ range .slider_item }}
         <figure class="m-0 item client_logo">
-          <!-- <a href="{{ .link | safeURL }}"> -->
             <img src="{{ .logo | absURL }}" alt="{{ .name }}">
-          <!-- </a> -->
         </figure>
         {{ end }}
-      </div><!-- Owl carousel end -->
-    </div><!-- Main row end -->
+      </div>
+    </div>
   </div>
-  <!--/ Container end -->
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!--/ Clients end -->
 
 
