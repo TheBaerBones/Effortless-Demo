@@ -167,8 +167,12 @@ Slider
   }
 
   .cd-hero-slider {
-    height: 530px;
+    height: 560px;
   }
+}
+
+.h2.title {
+  padding-left: 0px;
 }
 
 /* -------------------------------- 
