@@ -20,6 +20,7 @@
       "hr",
       "html",
       "i",
+      "iframe",
       "img",
       "input",
       "label",
@@ -352,7 +353,8 @@
       "widget-tab",
       "widget-tags",
       "widget-title",
-      "wow"
+      "wow",
+      "youtube-background"
     ],
     "ids": [
       "accordion1",
@@ -403,7 +405,9 @@
       "testimonial-carousel",
       "v-pills-tab",
       "v-pills-tabContent",
-      "why-us"
+      "why-us",
+      "youtube-background",
+      "youtubeVideoPlaceholder"
     ]
   }
 }
