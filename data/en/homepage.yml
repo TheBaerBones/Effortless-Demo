@@ -23,7 +23,7 @@ slider:
           link : "https://calendly.com/effortless-demo/disco15"
           
         # button loop
-        - label : "Learn More"
+        - label : "See Services"
           style : "solid"
           link : "service/"
 
@@ -64,7 +64,7 @@ slider:
           link : "#"
           
         # button loop
-        - label : "Learn More"
+        - label : "See Services"
           style : "solid"
           link : "#"
 
@@ -263,7 +263,7 @@ call_to_action:
       style : "white"
       link : "https://calendly.com/effortless-demo/disco15"
       
-    - label : "Learn More"
+    - label : "See Services"
       style : "solid"
       link : "service/"
 
