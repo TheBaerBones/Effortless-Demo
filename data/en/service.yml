@@ -2,7 +2,7 @@
 services:
   title: "What We Do"
   subtitle: "We do everything interior demolition."
-  subtitle1: "We do everything interior demolition. See all of Capabilities [here](service/)."
+  subtitle1: "We do everything interior demolition. See all of Capabilities on our [Services](service/) page."
   title_icon: "fa-wrench"
   service_item:
     - name: "Selective Demolition \"Soft Stripping\""
