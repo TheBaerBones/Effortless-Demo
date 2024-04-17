@@ -20,6 +20,7 @@
       "hr",
       "html",
       "i",
+      "iframe",
       "img",
       "input",
       "label",
@@ -405,7 +406,8 @@
       "v-pills-tab",
       "v-pills-tabContent",
       "why-us",
-      "youtube-background"
+      "youtube-background",
+      "youtubeVideoPlaceholder"
     ]
   }
 }
