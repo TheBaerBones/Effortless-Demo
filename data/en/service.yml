@@ -5,9 +5,9 @@ services:
   subtitle1: "We do everything interior demolition. See all of Capabilities on our [Services](service/) page."
   title_icon: "fa-wrench"
   service_item:
-    - name: "Selective Demolition \"Soft Stripping\""
+    - name: "Selective Demolition \"Soft Stripping\" and Fixture Removal"
       icon: "fa-building-o"
-      content: "Precision demolition targeting specific interior spaces or elements, ensuring the integrity of the remaining structure is preserved."
+      content: "Precision demolition targeting specific interior spaces or elements (e.g., cabinets, counters, millwork, lighting fixtures, plumbing fixtures, doors, windows)."
 
     - name: "Total Interior Gut-Outs"
       icon: "fa-recycle"
@@ -15,7 +15,7 @@ services:
 
     - name: "Mechanical and Electrical Strip-Out"
       icon: "fa-cogs"
-      content: "Safely disconnecting and extracting mechanical, electrical, and plumbing installations."
+      content: "Safely disconnecting and extracting HVAC components, mechanical, electrical, and plumbing installations."
 
     - name: "Concrete Cutting and Removal"
       icon: "fa-cut"
@@ -32,10 +32,6 @@ services:
     - name: "Ceiling Removal"
       icon: "fa-arrow-down"
       content: "Complete removal of various ceiling types, including Drop ceilings, Popcorn Ceilings, Drywall ceilings, and Attic insulation."
-
-    - name: "Comprehensive Fixture Removal"
-      icon: "fa-lightbulb-o"
-      content: "Extraction of HVAC components, cabinets, counters, millwork, lighting fixtures, plumbing fixtures, doors, windows, and associated hardware."
 
     - name: "Structural and Exterior Removal"
       icon: "fa-external-link"
