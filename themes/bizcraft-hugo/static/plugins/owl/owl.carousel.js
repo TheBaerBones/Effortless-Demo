@@ -108,8 +108,9 @@ if (typeof Object.create !== "function") {
             if (base.options.transitionStyle !== false) {
                 base.transitionTypes(base.options.transitionStyle);
             }
+            // carousel switch speed
             if (base.options.autoPlay === true) {
-                base.options.autoPlay = 5000;
+                base.options.autoPlay = 1000;
             }
             base.play();
 
@@ -1462,8 +1463,8 @@ if (typeof Object.create !== "function") {
         itemsScaleUp : false,
 
         slideSpeed : 200,
-        paginationSpeed : 8000,
-        rewindSpeed : 1000,
+        paginationSpeed : 500,
+        rewindSpeed : 500,
 
         autoPlay : false,
         stopOnHover : false,
