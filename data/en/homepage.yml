@@ -89,10 +89,10 @@ funfact:
   enable : true
   funfact_item:
   # funfact item loop
-  - name : "Satisfied Clients"
+  - name : "Recurring Clients"
     plus : "fa-plus"
     icon : "fa-thumbs-up"
-    count : "150"
+    count : "25"
     
   # funfact item loop
   - name : "Hours of Training"
