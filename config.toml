@@ -354,7 +354,7 @@ weight = 1
 
 [Languages.en.params]
 # footer content
-footer_content = "Open 9 AM - 7PM | Closed Wednesday<br><br>Contractors License: #EFFORJR779KE"
+footer_content = "Open 9 AM - 7PM | Monday - Saturday<br><br>Contractors License: #EFFORJR779KE"
 # copyright
 copyright = "Copyright &copy; 2024 Effortless Demolition"
 
