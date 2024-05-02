@@ -91,25 +91,25 @@ funfact:
   # funfact item loop
   - name : "Satisfied Clients"
     plus : "fa-plus"
-    icon : "fa-thumbs-up" # Suggesting an icon that reflects satisfaction and happiness.
+    icon : "fa-thumbs-up"
     count : "150"
     
   # funfact item loop
   - name : "Hours of Training"
     plus : "fa-plus"
-    icon : "fa-clock-o" # Suggesting an icon that directly relates to time to better represent hours.
+    icon : "fa-clock-o"
     count : "4000"
     
   # funfact item loop
   - name : "Project Capability"
-    icon : "fa-building-o" # Suggesting an icon that represents physical structures, correlating with the notion of project size.
-    sqft : "²" # Suggesting an icon that symbolizes availability and readiness to indicate on-call status. ²
+    icon : "fa-building-o"
+    sqft : "²"  # ²
     count : "20000"
 
   # funfact item loop
   - name : "Laborers on Call"
     plus : "fa-plus"
-    icon : "fa-phone" # Suggesting an icon that symbolizes availability and readiness to indicate on-call status.
+    icon : "fa-phone"
     count : "10"
     
   
