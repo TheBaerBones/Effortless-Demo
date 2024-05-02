@@ -233,11 +233,11 @@ about:
 
   about_item:
     - name: "Skilled and Trained Team"
-      icon: "fa-shield" # Indicates protection and safety, relating to training and standards
+      icon: "fa-users" # Indicates protection and safety, relating to training and standards
       content: "Our team boasts highly skilled leads with extensive training (4,000+ hours, OSHA30, First Aid, CPR) and apprentices to help you meet Apprenticeship Utilization Requirements (AURs)."
 
     - name: "Readiness for Any Project"
-      icon: "fa-users" # Reflects our team's capacity and readiness
+      icon: "fa-shield" # Reflects our team's capacity and readiness
       content: "With an extended network of 10+ on-call laborers, we are equipped to handle large or urgent projects efficiently."
 
     - name: "Community Contribution"
