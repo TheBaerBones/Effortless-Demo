@@ -232,22 +232,21 @@ about:
   content: "From debris removal to interior demolition upon requests from contractors, we focus on large residential, tenant improvements, multifamily renovations, and commercial projects up to 20,000 sq ft. Our mission: deliver predictable, stress-free services to clients; provide employees with trade education, fair wages, and a positive environment; and give our community spaces for growth."
 
   about_item:
-    - name: "Evolution of Services"
-      icon: "fa-recycle" # Represents our origin and adaptability
-      content: "Transitioned from debris removal to interior demolition to meet contractor demands, focusing on substantial residential and commercial projects."
-
     - name: "Skilled and Trained Team"
       icon: "fa-shield" # Indicates protection and safety, relating to training and standards
       content: "Our team boasts highly skilled leads with extensive training (4,000+ hours, OSHA30, First Aid, CPR) and apprentices to help you meet Apprenticeship Utilization Requirements (AURs)."
-
-    - name: "Community Contribution"
-      icon: "fa-heart-o" # Symbolizes care and contribution to the community
-      content: "Committed to fostering new opportunities and skills within our community for a brighter future."
 
     - name: "Readiness for Any Project"
       icon: "fa-users" # Reflects our team's capacity and readiness
       content: "With an extended network of 10+ on-call laborers, we are equipped to handle large or urgent projects efficiently."
 
+    - name: "Community Contribution"
+      icon: "fa-heart-o" # Symbolizes care and contribution to the community
+      content: "Committed to fostering new opportunities and skills within our community for a brighter future."
+
+    - name: "Evolution of Services"
+      icon: "fa-recycle" # Represents our origin and adaptability
+      content: "Transitioned from debris removal to interior demolition to meet contractor demands, focusing on substantial residential and commercial projects."
 
 ############################### team ####################################
 team:
