@@ -33,7 +33,7 @@ services:
       icon: "fa-arrow-down"
       content: "Complete removal of various ceiling types, including Drop ceilings, Popcorn Ceilings, Drywall ceilings, and Attic insulation."
 
-    - name: "Structural and Exterior Removal"
+    - name: "Miscellaneous Exterior Removal"
       icon: "fa-external-link"
       content: "Demolition and removal of decks, sheds, ADUs/DADUs, freestanding garages, signage, hot tubs, and miscellaneous equipment."
 
