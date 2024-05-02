@@ -20,6 +20,13 @@
 		display: none;
 	}
 
+	// Logo
+	.navbar-brand.navbar-bg {
+		.img-fluid {
+		width: 1000%;
+		}
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -186,7 +193,8 @@
 	}
 }
 
-@media (max-width : 767px){
+
+@media (max-width : 768px){
 
 	
 	/* Common */
@@ -447,6 +455,12 @@
 		padding-bottom: 40px;
 	}
 
+	// Logo
+	.navbar-brand.navbar-bg {
+		.img-fluid {
+		width: 1000%;
+		}
+	}
 
 }
 
@@ -461,6 +475,13 @@
 
 	#main-slide .item img{
 		height: 250px;
+	}
+
+	// Logo
+	.navbar-brand.navbar-bg {
+		.img-fluid {
+		width: 1000%;
+		}
 	}
 
 }

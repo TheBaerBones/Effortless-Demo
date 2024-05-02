@@ -134,6 +134,9 @@
 	@include desktop {
 		width: auto;
 	}
+	.img-fluid {
+	width: 90%;
+	}
 }
 
 .navbar-link-a{

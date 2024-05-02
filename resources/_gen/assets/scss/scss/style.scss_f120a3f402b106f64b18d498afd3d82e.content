@@ -630,6 +630,9 @@ blockquote {
   @media (max-width: 991px) {
     .navbar-brand.navbar-bg {
       width: auto; } }
+  .navbar-brand.navbar-bg .img-fluid {
+    width: 90%; }
+
 .navbar-link-a {
   position: relative;
   z-index: 1000; }
@@ -2626,7 +2629,9 @@ a.close-styler {
   .ts-flex-slider .flexSlideshow {
     height: 750px; }
   .dropdown i {
-    display: none; } }
+    display: none; }
+  .navbar-brand.navbar-bg .img-fluid {
+    width: 1000%; } }
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2722,7 +2727,7 @@ a.close-styler {
   .facts-num span {
     margin-top: 20px; } }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* Common */
   .parallax {
     padding: 60px 0; }
@@ -2863,7 +2868,9 @@ a.close-styler {
     font-size: 30px; }
   /* Blog single */
   .blog-post {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .navbar-brand.navbar-bg .img-fluid {
+    width: 1000%; } }
 
 /* Extra Small Devices, Phones */
 @media (max-width: 479px) {
@@ -2871,6 +2878,8 @@ a.close-styler {
   #main-slide .slides img {
     height: 230px; }
   #main-slide .item img {
-    height: 250px; } }
+    height: 250px; }
+  .navbar-brand.navbar-bg .img-fluid {
+    width: 1000%; } }
 
 /* Custom, iPhone Retina */
