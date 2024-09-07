@@ -260,7 +260,7 @@ call_to_action:
   subtitle : "Start Your Demolition"
   bg_image : "images/parallax/parallax1.jpg"
   buttons:
-    - label : "Contact Us"
+    - label : "Schedule a Consultation"
       style : "white"
       link : "contact/"
       
