@@ -18,9 +18,9 @@ slider:
       # slider buttons
       buttons:
         # button loop
-        - label : "Schedule a Call"
+        - label : "Contact Us"
           style : "white"
-          link : "https://calendly.com/effortless-demo/disco15"
+          link : "contact/"
           
         # button loop
         - label : "See Services"
@@ -260,9 +260,9 @@ call_to_action:
   subtitle : "Start Your Demolition"
   bg_image : "images/parallax/parallax1.jpg"
   buttons:
-    - label : "Schedule a Consultation"
+    - label : "Contact Us"
       style : "white"
-      link : "https://calendly.com/effortless-demo/disco15"
+      link : "contact/"
       
     - label : "See Services"
       style : "solid"
